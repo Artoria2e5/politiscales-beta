@@ -1014,7 +1014,7 @@ function onImageLoaded()
 				if(negSize > 40)
 				{
 					ctx.fillStyle = "#ffffff";
-					ctx.font = "20px serif";
+					ctx.font = "20px Montserrat";
 					ctx.textAlign = "right";
 					ctx.fillText(Math.round(negativeValue*100)+"%", axeMargin + negSize - 5, yPos + 23);
 				}
@@ -1022,7 +1022,7 @@ function onImageLoaded()
 				if(posSize > 40)
 				{
 					ctx.fillStyle = "#ffffff";
-					ctx.font = "20px serif";
+					ctx.font = "20px Montserrat";
 					ctx.textAlign = "left";
 					ctx.fillText(Math.round(positiveValue*100)+"%", axeMargin + negSize + ntrSize + 5, yPos + 23);
 				}
@@ -1030,7 +1030,7 @@ function onImageLoaded()
 				if(ntrSize > 40)
 				{
 					ctx.fillStyle = "#888888";
-					ctx.font = "20px serif";
+					ctx.font = "20px Montserrat";
 					ctx.textAlign = "center";
 					ctx.fillText(Math.round(neutralValue*100)+"%", axeMargin + negSize + ntrSize/2, yPos + 23);
 				}
@@ -1039,7 +1039,7 @@ function onImageLoaded()
 				ctx.drawImage(images[axesDrawInfo[i]["key"]+"1"], rPreview.width - axeMargin + 73 - 86, yPos - 27);
 
 				ctx.fillStyle = "#000000";
-				ctx.font = "16px serif";
+				ctx.font = "16px Montserrat";
 				ctx.textAlign = "left";
 				ctx.fillText(axesDrawInfo[i]["name0"], axeMargin + 8, yPos-6);
 
